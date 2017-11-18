@@ -1,0 +1,63 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"宋体";
+	line-height:22px;
+	color:#000000;
+	font-size:12px;
+	background:url(../Images/WEBimage/D_ymbg.jpg) no-repeat top center;
+  	}
+
+#divMain{ width:auto; height:auto; margin:0 auto;}
+ol,ul,li,dd{margin:0;padding:0;list-style:none;}
+
+/*search*/
+.search_text { border:0px #999999; width:83px; height:12px; margin-left:10px; margin-right:3px; font-size:12px; color:#999999; line-height:12px;}
+
+.nav{ width:656px; height:30px; margin-top:10px;}
+.nav ul li{ float:left; width:131px; height:30px; line-height:30px; text-align:center; font-family:"宋体"; color:#FFFFFF; font-size:14px; font-weight:bold; text-decoration:none;}
+.nav ul li a{ line-height:30px; text-align:center; font-family:"宋体"; color:#FFFFFF; font-size:14px; font-weight:bold; text-decoration:none;}
+.nav ul li a:hover{ line-height:30px; text-align:center; font-family:"宋体"; color:#aab5c6; font-size:14px; font-weight:bold; text-decoration:none;}
+
+
+/*--------------------------------*/
+.D_en{ line-height:22px; font-family:Arial; color:#FFFFFF; font-size:12px; font-weight:bold; text-decoration:none;}
+.D_en a{line-height:22px; font-family:Arial; color:#FFFFFF; font-size:12px; font-weight:bold; text-decoration:none;}
+.D_en a:hover{line-height:22px; font-family:Arial; color:#FFFFFF; font-size:12px; font-weight:bold; text-decoration:none;}
+
+.D_Nnm{line-height:22px; font-family:"宋体",Arial; color:#bd280a; font-size:12px; font-weight:bold; text-decoration:none;}
+.D_Nnm a{line-height:22px; font-family:"宋体",Arial; color:#bd280a; font-size:12px; font-weight:bold; text-decoration:none;}
+.D_Nnm a:hover{line-height:22px; font-family:"宋体",Arial; color:#bd280a; font-size:12px; font-weight:bold; text-decoration:none;}
+
+.D_Nbt{line-height:22px; font-family:"宋体"; color:#000000; font-size:12px; text-decoration:none;}
+.D_Nbt a{line-height:22px; font-family:"宋体"; color:#000000; font-size:12px; text-decoration:none;}
+.D_Nbt a:hover{line-height:22px; font-family:"宋体"; color:#bd280a; font-size:12px; text-decoration:none;}
+
+.D_BQ{line-height:22px; font-family:"宋体"; color:#666666; font-size:12px; text-decoration:none;}
+.D_BQ a{line-height:22px; font-family:"宋体"; color:#666666; font-size:12px; text-decoration:none;}
+.D_BQ a:hover{line-height:22px; font-family:"宋体"; color:#666666; font-size:12px; text-decoration:none;}
+
+.con_box {width:593px; height:271px; text-align:left; margin-left:0px;  padding-left:0px; background:#8ab2d9;
+ border:3px solid #FFFFFF; }
+
+.con_box2 {width:280px; height:150px; text-align:left; margin-left:0px;  padding:0px 5px 0px 5px; background:#8ab2d9;
+ border:3px solid #FFFFFF;}
+
+ .con_box3 {width:280px; height:150px; text-align:left; margin-left:0px;  padding:0px 5px 0px 5px; background:#8ab2d9;
+ border:3px solid #FFFFFF;}
+
+ .con_box4 {width:280px; height:270px; text-align:left; margin-left:0px;  padding:0px 5px 0px 5px; background:#8ab2d9;
+ border:3px solid #FFFFFF;}
+
+ .con_box5 {width:280px; height:150px; text-align:left; margin-left:0px;  padding:0px 5px 0px 5px; background:#8ab2d9;
+ border:3px solid #FFFFFF;}
+
+.con_boxXL {width:280px; line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold; text-align:center;  text-decoration:none;}
+.con_boxXL a{width:280px; line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold; text-align:center;  text-decoration:none;}
+.con_boxXL:hover{width:280px; line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold; text-align:center;  text-decoration:none;}
+
+ .CP_xlqt{line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold; text-align:center;  text-decoration:none;}
+.CP_xlqt a{line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold;  text-decoration:none;}
+.CP_xlqt a:hover{line-height:30px; font-family:"宋体"; color:#666666; font-size:14px; font-weight:bold;  text-decoration:none;}

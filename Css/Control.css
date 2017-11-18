@@ -1,0 +1,18 @@
+/*EIMS_C_46_1整体样式*/
+#EIMS_C_46_1_Panel{text-align:center;margin:0px;padding:0px;height:0px;width:83px; position:relative; border:0px #E8E8E8 groove}
+/*搜索关键字样式*/
+#EIMS_C_46_1_KeyText{font-size:12px;float:left;margin:0px 0px auto 0px;padding:0px;}
+/*搜索文本框样式*/
+#EIMS_C_46_1_KeyText{float:left;height:22px;width:83px;margin:-5px 0px 2px 0px;padding:0px; border:0px; }
+
+#EIMS_C_46_1_KeyValue{border:0px #999999; width:83px; height:12px; margin-left:10px; margin-right:3px; font-size:12px; color:#999999; line-height:12px;}
+/*搜索按钮样式*/
+#EIMS_C_46_1_Search{float:left;width:14px;height:16px;margin:-10px 0px 0px 4px;padding:0px;background:url(../images/control/btn_Search.gif)}
+
+/*IE6样式*/
+#EIMS_C_46_1_KeyText{_float:left;_height:22px;_width:83px;_margin:3px 0px 2px 0px;_padding:0px; _border:0px; }
+#EIMS_C_46_1_Search{_float:left;_width:14px;_height:16px;_margin:3px 0px 0px 4px;_padding:0px;_background:url(../images/control/btn_Search.gif)}
+
+/*IE7样式*/
+#EIMS_C_46_1_KeyText{*+margin:3px 0px 2px 0px;*+padding:0px; _border:0px; }
+#EIMS_C_46_1_Search{*+margin:3px 0px 0px 4px;*+padding:0px;}
