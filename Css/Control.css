@@ -68,13 +68,13 @@
 }
 
 /*IE7样式*/
-#EIMS_C_46_1_KeyText {
-    *+margin: 3px 0px 2px 0px;
-    *+padding: 0px;
-    _border: 0px;
-}
+/*#EIMS_C_46_1_KeyText {*/
+    /**+margin: 3px 0px 2px 0px;*/
+    /**+padding: 0px;*/
+    /*_border: 0px;*/
+/*}*/
 
-#EIMS_C_46_1_Search {
-    *+margin: 3px 0px 0px 4px;
-    *+padding: 0px;
-}
+/*#EIMS_C_46_1_Search {*/
+    /**+margin: 3px 0px 0px 4px;*/
+    /**+padding: 0px;*/
+/*}*/
