@@ -1,75 +1,80 @@
-#sddm
-{	margin: 0 auto;
-	padding: 0;
-	z-index: 30;
-	width:656px;
-	font-family:"宋体";
-	height:30px;}
-
-#sddm li
-{	margin: 0;
-	padding: 0;
-	list-style: none;
-	float: left;
-	line-height:30px;
-	text-align:center;
-	color:#FFFFFF;
-	font: bold 14px "宋体"}
-
-#sddm li a
-{	display: block;
-	margin: 0 0px 0 0;
-	padding: 10px 0px;
-	width:130px;
-	height:auto;
-	text-align:center;
-	font-family:"宋体";
-	color: #FFF;
-	text-decoration: none}
-
-#sddm li a:hover
-{ background:url(../Images/WEBimage/XL_hoverxx.jpg) no-repeat;
-width:130px;
-font-family:"宋体";
-font-size:14px;
-text-align:center;
-height:auto;
-  color:#000000;
+#sddm {
+    margin: 0 auto;
+    padding: 0;
+    z-index: 30;
+    width: 656px;
+    font-family: "宋体";
+    height: 30px;
 }
 
-#sddm div
-{	position: absolute;
-	visibility: hidden;
-	width:180px;
-	height:auto;
-	margin: 23px 0px 0px 0px;
-	padding: 0;
-	background: #e3e3e3;
-	font-size:12px;
-	border:0px solid #5970B2;
-	 font:12px "宋体"
-	line-height:34px;
-	}
+#sddm li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font: bold 14px "宋体"
+}
 
-	#sddm div a
-	{	position: relative;
-		display: block;
-		margin: 0;
-		padding:10px 25px 11px 25px;
-		width: auto;
-		white-space: nowrap;
-		text-align: left;
-		line-height:22px;
-		text-decoration: none;
-		background:url(../Images/WEBimage/CDHHV.jpg) repeat-y;
-		color: #5970B2;
-		 font:12px "宋体"}
+#sddm li a {
+    display: block;
+    margin: 0 0px 0 0;
+    padding: 10px 0px;
+    width: 130px;
+    height: auto;
+    text-align: center;
+    font-family: "宋体";
+    color: #FFF;
+    text-decoration: none
+}
 
-	#sddm div a:hover
-	{	background:url(../Images/WEBimage/CDHHV2.jpg) repeat-y;
-	    width:auto;
-	    height:auto;
-	    color: #ffffff;
-		line-height:22px;
-		text-align:left;
-		 font:12px "宋体"}
+#sddm li a:hover {
+    background: url(../Images/WEBimage/XL_hoverxx.jpg) no-repeat;
+    width: 130px;
+    font-family: "宋体";
+    font-size: 14px;
+    text-align: center;
+    height: auto;
+    color: #000000;
+}
+
+#sddm div {
+    position: absolute;
+    visibility: hidden;
+    width: 180px;
+    height: auto;
+    margin: 23px 0px 0px 0px;
+    padding: 0;
+    background: #e3e3e3;
+    font-size: 12px;
+    border: 0px solid #5970B2;
+    font: 12px "宋体";
+    line-height: 34px;
+}
+
+#sddm div a {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 10px 25px 11px 25px;
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 22px;
+    text-decoration: none;
+    background: url(../Images/WEBimage/CDHHV.jpg) repeat-y;
+    color: #5970B2;
+    font: 12px "宋体"
+}
+
+#sddm div a:hover {
+    background: url(../Images/WEBimage/CDHHV2.jpg) repeat-y;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: left;
+    font: 12px "宋体"
+}
