@@ -5,8 +5,9 @@ $(document).ready(function($){ //the part of leftnav
 
                      $.each(res.data,function(key,value){
        
-         $("#left_nav").append('<div Class="left_menu"><a target="_self" href="Products.html?TypeId=101">'+res.data[key].name+'</a></div>');});
-                                   
+         $("#menu_ul").append('<div class="left_menu" id="kind'+res.data[key].id+'"><a target="_self" href="Products.html?TypeId=101">'+res.data[key].name+'</a></div>');});//左侧导航栏
+                  
+            
 
 
 
