@@ -32,6 +32,7 @@ $(document).ready(function($){ //the part of leftnav
                                     </div>
                                         <div class="product_name CP_name">
                                         <p>${respage.data[k1].goodsName}</p>
+                                        <button>购物车</button>
                                         </div>
                                     </div>
                                 	
@@ -67,6 +68,7 @@ $(document).ready(function($){ //the part of leftnav
                                                                                               </div>
                                                                                               <div class="product_name CP_name">
                                                                                                   <p>${respage.data[k2].goodsName}</p>
+                                                                                                  <button>购物车</button>
                                                                                               </div>
                                                                                           </div>
                                   
