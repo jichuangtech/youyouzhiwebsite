@@ -49,7 +49,7 @@ $(document).ready(function($){ //the part of leftnav
                               $("#page1").addClass("page_active");//第一个显示active
                               setTimeout(function () {
 
-                                           for(var pdid=1;pdid<6;pdid++){
+                                           for(var pdid=1;pdid<=respage.pageTotal;pdid++){
                                                      $("#page"+pdid).unbind('click');
                                                      $("#page"+pdid).click(function(){    //绑定页码的click事件
                                                                 $(this).parents().find("li.page_active").removeClass("page_active");
@@ -64,10 +64,10 @@ $(document).ready(function($){ //the part of leftnav
                                                                         $(".product_module_main").append(`
                                                                                           <div class="product_module_1">
                                                                                               <div class="product_img">
-                                                                                                  <img src="https://www.jichuangtech.site/clothshopserver/api/goodsCategories/picture/${respage.data[k2].originalImg}" alt="">
+                                                                                                  <img src="https://www.jichuangtech.site/clothshopserver/api/goodsCategories/picture/${pagei.data[k2].originalImg}" alt="">
                                                                                               </div>
                                                                                               <div class="product_name CP_name">
-                                                                                                  <p>${respage.data[k2].goodsName}</p>
+                                                                                                  <p>${pagei.data[k2].goodsName}</p>
                                                                                                   <button>购物车</button>
                                                                                               </div>
                                                                                           </div>
