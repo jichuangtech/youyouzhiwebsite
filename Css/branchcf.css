@@ -16,9 +16,10 @@
 .product_module_top span{float: left;line-height: 29px;}
 .product_module_main{white-space: normal;margin-top: 40px;height: 1020px;}
 .product_module_1{width: 220px;height:250px;display: inline-block;margin-top: 0px;float: left;margin-bottom: 10px;margin-left:5px;border: 1px solid #e5e5e5;border-radius: 5px;}
-.product_img{height:60%;width: 100%;margin: 0 auto;margin-top: 3px;}
+.product_img{height:60%;width: 100%;margin: 0 auto;margin-top: 0px;}
 .product_img img{  width: 100%;  height: 100%;  max-width: 100%;  max-height: 100%;margin: 0 auto;border-radius: 4px; }
-.product_name p{text-align: left;margin-left:20px;font-weight: bolder;font-size: 15px;}
+.product_name p{text-align: left;font-weight: bolder;font-size: 15px;margin: 10px 0 0 20px;}
+.product_name span{white-space: nowrap;display: block;text-align: left;margin-left: 20px;overflow: hidden;}
 .product_name button{float: left;margin-left: 12px;}
 .real_line{background: url(../Images/WEBimage/CP_FG.jpg) repeat-x;height: 23px;}
 .page_total{}

@@ -32,6 +32,7 @@ $(document).ready(function($){ //the part of leftnav
                                     </div>
                                         <div class="product_name CP_name">
                                         <p>${respage.data[k1].goodsName}</p>
+                                        <span>${respage.data[k1].goodsContent}</span>
                                         <button>购物车</button>
                                         </div>
                                     </div>
@@ -48,6 +49,7 @@ $(document).ready(function($){ //the part of leftnav
                                   }
                               $("#page1").addClass("page_active");//第一个显示active
                               setTimeout(function () {
+
 
                                            for(var pdid=1;pdid<=respage.pageTotal;pdid++){
                                                      $("#page"+pdid).unbind('click');
@@ -68,6 +70,7 @@ $(document).ready(function($){ //the part of leftnav
                                                                                               </div>
                                                                                               <div class="product_name CP_name">
                                                                                                   <p>${pagei.data[k2].goodsName}</p>
+                                                                                                  <span>${pagei.data[k2].goodsContent}</span>
                                                                                                   <button>购物车</button>
                                                                                               </div>
                                                                                           </div>
@@ -80,8 +83,10 @@ $(document).ready(function($){ //the part of leftnav
                                                                 })//getjson
 
                                                       });//click
+
                                             } //六次循环结束
-                              }, 500);    
+                              }, 500);
+
 
                             });
                         });
@@ -91,7 +96,12 @@ $(document).ready(function($){ //the part of leftnav
 
 
 
-
+                   function first(){$("#kind1").trigger("click");}
+                   setTimeout(first(),800);
                     });
+
+           
+
+        
 
  });
